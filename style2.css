@@ -1,0 +1,104 @@
+
+body{
+	background-color:silver;
+}
+
+body:hover{
+	background-color:lime;
+}
+
+
+body{
+	background-color:#eee;}
+	
+
+nav:only-of-type{
+	-webkit-transition:-webkit-transform 2s;
+    transition:transform 2s;
+}
+
+nav:only-of-type:hover{
+	transform: rotate(120deg);  /* W3C */
+	-webkit-transform: rotate(120deg); /* Safari & Chrome */
+}
+
+ul li{
+	list-style-type:none;
+	font-size:40px;
+}
+
+ol,ul>li>a{
+	text-decoration:none;
+	color:white;
+	border:2px solid orange
+}
+
+a[src$=".html"]:hover{
+
+}
+
+p:first-of-type{
+	border:solid red 20px;
+	-webkit-transition:-webkit-transform 3s;
+    transition:transform 3s;
+}
+
+p:first-of-type:hover{
+	border:solid blue 20px;
+	transform: rotate(180deg);  /* W3C */
+	-webkit-transform: rotate(180deg); /* Safari & Chrome */
+	border-radius:7000px;
+}
+
+p:last-of-type{
+	border:solid yellow 10px;
+	-webkit-transition:-webkit-transform 3s;
+    transition:transform 3s;
+}
+
+p:last-of-type:hover{
+	border:solid green 50px;
+	transform: rotate(50deg);  /* W3C */
+	-webkit-transform: rotate(50deg); /* Safari & Chrome */
+	border-radius:7000px;
+	padding:50px;
+}
+
+input{
+	box-shadow: 2px 2px 2px #000;
+	width:100px;
+	background-color:white;
+	-webkit-transition:-webkit-transform 3s, width 2s, background-color 2s ;
+    transition:transform 3s, width 2s, background-color 2s;
+}
+
+input:focus{
+	width:500px;
+	background-color:orange;
+	transform: rotate(60deg);  /* W3C */
+	-webkit-transform: rotate(60deg); /* Safari & Chrome */
+}
+
+label:nth-of-type(2){
+	font-weight:bold;
+}
+
+section:first-of-type{
+	text-align:left;
+	-webkit-transition:text-align 2s;
+    transition:text-align 2s;
+}
+
+section:first-of-type:hover{
+	text-align:right;
+}
+
+*:hover{
+	color:tomato;
+}
+
+
+
+
+
+
